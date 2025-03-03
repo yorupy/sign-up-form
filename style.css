@@ -173,3 +173,18 @@ main {
     font-weight: 600;
     letter-spacing: .1rem;
 }
+
+form input {
+    border: 1px solid black;
+    padding: 0.2rem 0.5rem;
+}
+
+form input:invalid {
+    border: 1px solid rgb(200, 0, 0);
+}
+
+form input:focus {
+    border: 1px solid rgb(0, 0, 200);
+    outline: none;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
