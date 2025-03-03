@@ -58,6 +58,8 @@ h6 {
     text-wrap: balance;
 }
 
+:root {}
+
 body {
     font-family: "Montserrat", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -99,4 +101,20 @@ main {
     text-transform: uppercase;
     font-size: 4rem;
     letter-spacing: -.3rem;
+}
+
+.banner p {
+    color: white;
+    padding: .5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner p a:link,
+.banner p a:visited {
+    color: rgb(104, 185, 255);
+    font-weight: bold;
 }
