@@ -72,6 +72,10 @@ main {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 .banner {
     position: relative;
     display: flex;
@@ -215,4 +219,15 @@ form button:hover {
 
 form button:active {
     background-color: rgb(74, 128, 202);
+}
+
+.form-section .log-in {
+    position: absolute;
+    bottom: -10rem;
+    font-weight: bold;
+}
+
+.log-in a:link,
+.log-in a:visited {
+    color: rgb(74, 128, 202);
 }
