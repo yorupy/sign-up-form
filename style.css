@@ -58,7 +58,10 @@ h6 {
     text-wrap: balance;
 }
 
-:root {}
+:root {
+    --slate-bg: rgb(249, 250, 251);
+    --banner-width: 25rem;
+}
 
 body {
     font-family: "Montserrat", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -117,4 +120,15 @@ main {
 .banner p a:visited {
     color: rgb(104, 185, 255);
     font-weight: bold;
+}
+
+.content {
+    width: calc(100vw - var(--banner-width));
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    padding: 10rem 5rem 5rem;
+    background-color: var(--slate-bg)
 }
