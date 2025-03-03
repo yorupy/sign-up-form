@@ -148,7 +148,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 70%;
+    width: 80%;
 }
 
 .form-section form {
@@ -159,12 +159,13 @@ main {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
 }
 
 .row p {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .row label {
@@ -177,6 +178,7 @@ main {
 form input {
     border: 1px solid black;
     padding: 0.2rem 0.5rem;
+    border-radius: 5px;
 }
 
 form input:invalid {
